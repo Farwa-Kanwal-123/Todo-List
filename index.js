@@ -30,7 +30,8 @@ let main = async () => {
             await viewTask();
         }
         else if (option.choice === "Exit") {
-            condition = false;
+            exitList();
+            ``;
         }
     }
 };
@@ -88,4 +89,10 @@ let updateTask = async () => {
     console.log(chalk.bgGrey(`\n Task at index no. ${chalk.bgMagentaBright.bold(update_task_index.index)} updated successfully.`));
     console.log(todoList);
 };
+//Exit from todo list
+function exitList() {
+    console.log(chalk.magenta("you have Exited from todo-list."));
+    console.log(chalk.magentaBright.bold("See you again.GOOD BYE!!!"));
+    return condition = false;
+}
 main();
