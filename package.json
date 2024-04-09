@@ -1,6 +1,6 @@
 {
   "name": "advance-features-my-todo-application-786",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "A todo-list with advance features,where you can Add,Delete,view list and also Update items",
   "main": "index.js",
   "type": "module",
